@@ -1,10 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>William Bergh | Portfolio</title>
-  </head>
-  <body>
+<?php
+  include_once "./assets/inc/header.inc.php";
+?>
 
-  </body>
-</html>
+
+
+<?php
+  include_once "./assets/inc/footer.inc.php";
+?>
