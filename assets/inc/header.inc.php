@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="/portfolio/assets/css/main.css">
     <link rel="stylesheet" href="/portfolio/assets/css/header.css">
     <link rel="stylesheet" href="/portfolio/assets/css/footer.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700" rel="stylesheet">
   </head>
   <body>
     <header class="header">
