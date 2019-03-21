@@ -1,2 +1,2 @@
 # portfolio
-Portfolio and Project manager
+my portfolio as a web developer
