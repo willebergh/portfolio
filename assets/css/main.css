@@ -82,3 +82,28 @@ p, a {
   width: 100%;
   background-color: rgb(230, 230, 230);
 }
+
+.projects {
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.project_card {
+  display: block;
+  width: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.project_grid_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+}
+.project_text_content {
+  padding: 16px;
+  grid-column: 1 / span 2
+}
+.project_links {
+  padding: 8px;
+  text-align: center;
+}
