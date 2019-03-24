@@ -30,7 +30,10 @@
         </div>
       </div>
     </div>
-    <?php include_once "./assets/inc/projects.inc.php" ?>
+    <?php
+      include_once "./assets/inc/about.inc.php";
+      include_once "./assets/inc/projects.inc.php"
+    ?>
   </main>
 
 <?php
