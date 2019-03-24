@@ -8,6 +8,7 @@
         <p class="project_grid_item">I built a fully functional torrent site as a school project.</p>
         <p class="project_grid_item">HTML, CSS, PHP, MySQL</p>
       </div>
+      <span class="spacerX"></span>
       <a class="project_links" href="https://github.com/willebergh/supertorrents">GitHub</a>
       <a class="project_links" href="#">Learn more</a>
     </div>

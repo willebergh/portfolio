@@ -50,10 +50,17 @@ p, a {
   box-shadow: 1px 1px 4px 1px rgba(200, 200, 200, 1);
 }
 
-.spacer {
+.spacerY {
   display: block;
   width: 1px;
   margin: 16px;
+  background-color: rgb(58, 58, 58, .5);
+}
+.spacerX {
+  display: block;
+  height: 1px;
+  margin: 0 16px;
+  grid-column: 1 / span 2;
   background-color: rgb(58, 58, 58, .5);
 }
 
@@ -88,6 +95,7 @@ p, a {
   flex-flow: wrap;
   flex-direction: row;
   justify-content: space-around;
+  margin: 32px 0;
 }
 .project_card {
   display: block;
@@ -101,9 +109,17 @@ p, a {
 }
 .project_text_content {
   padding: 16px;
-  grid-column: 1 / span 2
+  grid-column: 1 / span 2;
+}
+.project_text_content h1 {
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-weight: 900;
+}
+.project_text_content p {
+  margin-top: 12px;
 }
 .project_links {
-  padding: 8px;
+  padding: 16px;
   text-align: center;
 }
