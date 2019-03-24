@@ -30,6 +30,7 @@
         </div>
       </div>
     </div>
+    <?php include_once "./assets/inc/projects.inc.php" ?>
   </main>
 
 <?php
