@@ -8,7 +8,9 @@
   --main-font: 'Open Sans', sans-serif;
   --main-alt-font: 'Roboto Mono', monospace;
 }
-
+* {
+  box-sizing: border-box;
+}
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--main-alt-font);
 }
