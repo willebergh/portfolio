@@ -1,4 +1,4 @@
-<div class="home section">
+<div class="home section" id="home_section">
   <div class="home_container">
     <div class="home_container_item">
       <h1 class="home_header">
