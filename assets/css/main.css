@@ -82,7 +82,7 @@ p, a {
   display: block;
   width: 100%;
   min-height: 100vh;
-  padding: 64px 64px 0;
+  padding: 64px;
 }
 .section:nth-child(odd) {
   background-color: var(--main-white-color);
