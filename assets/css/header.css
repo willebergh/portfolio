@@ -27,6 +27,7 @@
 .header_nav ul li a {
   color: var(--main-light-gray-color);
   padding: 8px;
+  cursor: pointer;
 }
 .header_nav ul li a:hover {
   color: var(--main-white-color);
