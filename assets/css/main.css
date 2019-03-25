@@ -12,6 +12,11 @@
 * {
   box-sizing: border-box;
 }
+body {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--main-alt-font);
 }
@@ -31,6 +36,7 @@ p, a {
   flex-flow: wrap;
   flex-direction: row;
   justify-content: center;
+  height: 100vh;
 }
 .top_content_left {
 
