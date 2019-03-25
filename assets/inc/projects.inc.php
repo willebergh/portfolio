@@ -1,4 +1,4 @@
-<div class="projects">
+<div class="projects section">
   <h1 class="section_header_gray">My Projects</h1>
   <div class="project_card_container">
     <div class="project_card">

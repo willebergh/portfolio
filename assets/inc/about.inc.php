@@ -1,4 +1,4 @@
-<div class="about">
+<div class="about section">
   <h1 class="section_header_white">About Me</h1>
   <div class="about_container">
     <div class="about_container_item">
