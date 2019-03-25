@@ -36,7 +36,6 @@ p, a {
   flex-flow: wrap;
   flex-direction: row;
   justify-content: center;
-  height: 100vh;
 }
 .top_content_left {
 
@@ -75,12 +74,26 @@ p, a {
   padding-bottom: 16px;
 }
 
+/* General Styling for all sections */
+.section {
+  display: block;
+  width: 100%;
+  height: 100vh;
+  padding: 64px;
+}
+.section:nth-child(odd) {
+  background-color: var(--main-white-color);
+}
+.section:nth-child(even) {
+  color: var(--main-white-color);
+  background-color: var(--main-gray-color);
+}
+
 
 
 /* Styling for section: About */
 .about {
-  padding: 64px;
-  background-color: var(--main-gray-color);
+
 }
 .about_container {
   display: grid;
@@ -108,7 +121,6 @@ p, a {
 .about_container_item {
   display: block;
   padding: 32px;
-  color: var(--main-white-color);
 }
 .about_container_item h1 {
   margin: 8px 0;
@@ -122,8 +134,7 @@ p, a {
 
 /* Styling for section: Projects */
 .projects {
-  display: block;
-  padding: 64px;
+
 }
 .project_card_container {
   display: flex;

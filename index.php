@@ -3,7 +3,7 @@
 ?>
 
   <main class="main">
-    <div class="top_content">
+    <div class="top_content section">
       <div class="top_content_left">
         <h1>William Bergh</h1>
         <div class="top_content_nav">
