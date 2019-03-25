@@ -31,8 +31,7 @@ p, a {
 }
 
 .main {
-  display: block;
-  margin: 32px 0;
+
 }
 
 .top_content {
@@ -83,7 +82,7 @@ p, a {
   display: block;
   width: 100%;
   min-height: 100vh;
-  padding: 64px;
+  padding: 64px 64px 0;
 }
 .section:nth-child(odd) {
   background-color: var(--main-white-color);
