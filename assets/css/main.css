@@ -100,9 +100,10 @@ p, a {
   flex-flow: wrap;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
 }
 .home_header {
-  margin: 72px 64px 64px;
+  margin-left: 32px;
   font-family: var(--alt-header-font);
   font-size: 48px;
 }
