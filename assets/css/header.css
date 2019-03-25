@@ -25,6 +25,9 @@
   display: inline-block;
 }
 .header_nav ul li a {
-  color: inherit;
+  color: var(--main-light-gray-color);
   padding: 8px;
+}
+.header_nav ul li a:hover {
+  color: var(--main-white-color);
 }
