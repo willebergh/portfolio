@@ -57,33 +57,6 @@ p, a {
   background-color: rgb(58, 58, 58, .5);
 }
 
-.top_content_right {
-  display: block;
-  width: 30%;
-}
-
-.projectViewer {
-  display: block;
-  width: 100%;
-  box-shadow: 1px 1px 4px 1px rgb(58, 58, 58, .5);
-}
-.project__title {
-  display: block;
-  padding: 8px;
-  color: var(--main-white-color);
-  background-color: var(--main-blue-color);
-}
-.project__img {
-  display: block;
-  width: 100%;
-}
-.project__description {
-  display: block;
-  width: 100%;
-  background-color: rgb(230, 230, 230);
-}
-
-
 
 .section_header_white {
   color: var(--main-white-color);
