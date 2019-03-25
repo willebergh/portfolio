@@ -2,8 +2,11 @@
   display: block;
   width: 100%;
   padding: 16px 64px;
+  position: sticky;
+  top: 0;
   background-color: var(--main-gray-color);
   color: var(--main-white-color);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 .header_content_container {
   display: flex;
