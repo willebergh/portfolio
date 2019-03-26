@@ -31,26 +31,26 @@ function scroll_position() {
   var work = document.getElementById('header_nav_work');
   var contact = document.getElementById('header_nav_contact');
 
-  if (x_scroll_pos > window.innerHeight / 2) {
+  if (x_scroll_pos > window.innerHeight * 1 - window.innerHeight / 3) {
     about.style.color = "var(--main-white-color)";
     home.style.color = "var(--main-light-gray-color)";
   } else {
     home.style.color = "var(--main-white-color)";
     about.style.color = "var(--main-light-gray-color)";
   }
-  if (x_scroll_pos > window.innerHeight * 2 - window.innerHeight / 2) {
+  if (x_scroll_pos > window.innerHeight * 2 - window.innerHeight / 3) {
     projects.style.color = "var(--main-white-color)";
     about.style.color = "var(--main-light-gray-color)";
   } else {
     projects.style.color = "var(--main-light-gray-color)";
   }
-  if (x_scroll_pos > window.innerHeight * 3 - window.innerHeight / 2) {
+  if (x_scroll_pos > window.innerHeight * 3 - window.innerHeight / 3) {
     work.style.color = "var(--main-white-color)";
     projects.style.color = "var(--main-light-gray-color)";
   } else {
     work.style.color = "var(--main-light-gray-color)";
   }
-  if (x_scroll_pos > window.innerHeight * 4 - window.innerHeight / 2) {
+  if (x_scroll_pos > window.innerHeight * 4 - window.innerHeight / 3) {
     contact.style.color = "var(--main-white-color)";
     work.style.color = "var(--main-light-gray-color)";
   } else {
