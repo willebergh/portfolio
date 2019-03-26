@@ -13,3 +13,13 @@ function scroll_projects() {
   var scroll_num = elmnt - 64;
   window.scrollTo(0, scroll_num);
 }
+function scroll_work() {
+  var elmnt = document.getElementById('work_section').offsetTop;
+  var scroll_num = elmnt - 64;
+  window.scrollTo(0, scroll_num);
+}
+function scroll_contact() {
+  var elmnt = document.getElementById('contact_section').offsetTop;
+  var scroll_num = elmnt - 64;
+  window.scrollTo(0, scroll_num);
+}

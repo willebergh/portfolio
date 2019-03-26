@@ -22,8 +22,8 @@
           <ul>
             <li><a onClick="scroll_home()">Home</a></li>
             <li><a onClick="scroll_about()">About</a></li>
-            <li><a onClick="scroll_career()">Career</a></li>
             <li><a onClick="scroll_projects()">Projects</a></li>
+            <li><a onClick="scroll_work()">Work</a></li>
             <li><a onClick="scroll_contact()">Contact</a></li>
           </ul>
         </div>
