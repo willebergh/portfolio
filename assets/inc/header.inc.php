@@ -13,18 +13,19 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">
     <script src="./assets/js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
-  <body>
+  <body onscroll="scroll_position()">
     <header class="header">
       <div class="header_content_container">
         <h1 class="section_header_white">William Bergh</h1>
         <div class="header_nav">
           <ul>
-            <li><a onClick="scroll_home()">Home</a></li>
-            <li><a onClick="scroll_about()">About</a></li>
-            <li><a onClick="scroll_projects()">Projects</a></li>
-            <li><a onClick="scroll_work()">Work</a></li>
-            <li><a onClick="scroll_contact()">Contact</a></li>
+            <li><a id="header_nav_home" onClick="scroll_home()">Home</a></li>
+            <li><a id="header_nav_about" onClick="scroll_about()">About</a></li>
+            <li><a id="header_nav_projects" onClick="scroll_projects()">Projects</a></li>
+            <li><a id="header_nav_work" onClick="scroll_work()">Work</a></li>
+            <li><a id="header_nav_contact" onClick="scroll_contact()">Contact</a></li>
           </ul>
         </div>
       </div>
