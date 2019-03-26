@@ -223,6 +223,7 @@ p, a {
   color: var(--main-white-color);
   background-color: var(--main-gray-color);
   position: static;
+  box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.5);
 }
 .contact_card .img_container {
   position: absolute;
@@ -232,6 +233,7 @@ p, a {
   position: relative;
   top: -25px;
   left: -50%;
+  box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.5);
 }
 .contact_card .text_container {
   width: 100%;
