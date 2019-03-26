@@ -199,3 +199,46 @@ p, a {
   color: #fff;
   background-position: 0 -100%;
 }
+
+
+
+/* Styling for Section: Contact */
+.contact {
+
+}
+.contact_container {
+
+}
+.contact_card_container {
+  width: 60%;
+  margin: 150px auto 0;
+}
+.contact_card {
+  padding: 25px 0 25px 150px;
+}
+.contact_card_content {
+  display: block;
+  width: 100%;
+  height: 250px;
+  color: var(--main-white-color);
+  background-color: var(--main-gray-color);
+  position: static;
+}
+.contact_card .img_container {
+  position: absolute;
+}
+.contact_card .img_container img{
+  border-radius: 50%;
+  position: relative;
+  top: -25px;
+  left: -50%;
+}
+.contact_card .text_container {
+  width: 100%;
+  height: 100%;
+  padding: 16px;
+  padding-left: 175px;
+}
+.contact_card .text_container h1, .contact_card .text_container p {
+  color: inherit;
+}
