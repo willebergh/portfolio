@@ -34,38 +34,6 @@ p, a {
 
 }
 
-.top_content {
-  display: flex;
-  flex-flow: wrap;
-  flex-direction: row;
-  justify-content: center;
-}
-.top_content_left {
-
-}
-.top_content_nav {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-gap: 8px;
-}
-
-.top_content_nav_item {
-  display: block;
-  padding: 8px;
-  background-color: var(--main-blue-color);
-  color: var(--main-white-color);
-  text-align: center;
-  box-shadow: 1px 1px 4px 1px rgba(200, 200, 200, 1);
-}
-
-.spacer {
-  display: block;
-  width: 1px;
-  margin: 16px;
-  background-color: rgb(58, 58, 58, .5);
-}
-
-
 .section_header_white {
   color: var(--main-white-color);
   font-size: 32px;
