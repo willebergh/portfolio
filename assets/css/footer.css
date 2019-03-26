@@ -23,6 +23,9 @@
   font-weight: bolder;
   color: var(--main-white-color);
 }
+.footer_flex a {
+  cursor: pointer;
+}
 .footer_flex a:hover {
   color: var(--main-white-color);
 }

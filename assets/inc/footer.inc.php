@@ -14,11 +14,11 @@
         <div class="footer_flex_item">
           <h1>Navigation</h1>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Career</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a onClick="scroll_home()">Home</a></li>
+            <li><a onClick="scroll_about()">About</a></li>
+            <li><a onClick="scroll_projects()">Projects</a></li>
+            <li><a onClick="scroll_work()">Work</a></li>
+            <li><a onClick="scroll_contact()">Contact</a></li>
           </ul>
         </div>
       </div>
