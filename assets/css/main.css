@@ -172,43 +172,83 @@ p, a {
 
 /* Styling for Section: Contact */
 .contact {
-
+  display: flex;
+  align-items: center;
 }
-.contact_container {
-
-}
-.contact_card_container {
-  width: 60%;
-  margin: 150px auto 0;
+.content_card_container {
+  display: block;
+  width: 1000px;
+  height: auto;
+  margin: 0 auto;
 }
 .contact_card {
-  padding: 25px 0 25px 150px;
-}
-.contact_card_content {
   display: block;
   width: 100%;
-  height: 250px;
-  color: var(--main-white-color);
-  background-color: var(--main-gray-color);
-  position: static;
-  box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.5);
-}
-.contact_card .img_container {
-  position: absolute;
-}
-.contact_card .img_container img{
-  border-radius: 50%;
-  position: relative;
-  top: -25px;
-  left: -50%;
-  box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.5);
-}
-.contact_card .text_container {
-  width: 100%;
   height: 100%;
-  padding: 16px;
-  padding-left: 175px;
+  padding: 64px;
+  background-color: var(--main-gray-color);
 }
-.contact_card .text_container h1, .contact_card .text_container p {
-  color: inherit;
+.contact_card_flex {
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.contact_card_left, .contact_card_right {
+  display: block;
+  width: 50%;
+  padding: 16px;
+  position: relative;
+}
+
+.contact_card_icons_container {
+  position: absolute;
+  bottom: 0;
+}
+.contact_card_icons {
+  color: var(--main-white-color);
+  font-size: 38px;
+  margin: 16px;
+}
+
+.contact_card_form_input_container {
+  display: block;
+  margin-bottom: 8px;
+  position: relative;
+}
+.contact_card_form_input {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  color: var(--main-white-color);
+  font-size: 16px;
+  font-family: 'Open Sans';
+  background-color: inherit;
+  border: none;
+  border-bottom: 1px solid var(--main-light-gray-color);
+}
+.contact_card_form_input ~ .contact_card_form_span {
+  width: 0;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: var(--main-blue-color);
+  transition: 0.4s;
+}
+.contact_card_form_input:focus ~ .contact_card_form_span {
+  width: 100%;
+  transition: 0.4s;
+}
+.contact_card_form_button_container {
+  text-align: right;
+  margin-top: 32px;
+}
+.contact_card_form_button {
+  padding: 8px;
+  color: var(--main-gray-color);
+  font-size: 16px;
+  font-family: 'Roboto Mono';
+  background-color: var(--main-white-color);
+  border: none;
 }
