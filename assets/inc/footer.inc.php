@@ -6,9 +6,9 @@
         <div class="footer_flex_item">
           <h1>Contact</h1>
           <ul>
-            <li><a href="#">E-mail</a></li>
-            <li><a href="#">GitHub</a></li>
-            <li><a href="#">facebook</a></li>
+            <li><a href="mailto:willebergh@outlook.com" target="_blank">E-mail</a></li>
+            <li><a href="https://github.com/willebergh" target="_blank">GitHub</a></li>
+            <li><a href="https://facebook.com/willeberget" target="_blank">facebook</a></li>
           </ul>
         </div>
         <div class="footer_flex_item">
